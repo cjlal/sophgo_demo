@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from modell import Res2Net
+from model import Res2Net
 from Res2Net import Bottle2neck
 
 import numpy as np
@@ -18,8 +18,8 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
 
-ROOT_TRAIN = r'/Users/cjl/数据/State_Farm/train_link/train'
-ROOT_TEST = r'/Users/cjl/数据/State_Farm/train_link/val'
+ROOT_TRAIN = r'./State_Farm/train_link/train'
+ROOT_TEST = r'./State_Farm/train_link/val'
 
 # 将图像RGB三个通道的像素值分别减去0.5,再除以0.5.从而将所有的像素值固定在[-1,1]范围内
 normalize = transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])
