@@ -1,4 +1,5 @@
 # sophgo_driver_distraction_detection_demo
 用SOPHGO算能平台进行驾驶员分心检测示例
 为解决驾驶空间狭小，分心姿势差异较小的问题，实现更细粒度的检测，采用Res2Net进行分心检测
+
 数据集来自Kaggle发布的公开数据集StateFarm
